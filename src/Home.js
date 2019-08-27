@@ -74,12 +74,12 @@ class App extends Component {
                             Enter your Zip Code & see if you can reduce your house payment!
               </Text>
                     </Col>
-                    <Col span={16} push={4} style={{}}>
+                    <Col span={10} push={4}>
                         <Row>
                             <Col span={3}>
                                 <Input style={{ width: 130, height: 60, borderRadius: 0 }} placeholder="Enter Zip Code" size="large" />
                             </Col>
-                            <Col span={3} push={1}>
+                            <Col span={3} push={3}>
                                 <Button size="large" type="primary" style={{ color: "white", height: 60, width: 130, borderRadius: 0 }}> Continue</Button>
                             </Col>
                         </Row>
