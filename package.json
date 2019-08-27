@@ -2,7 +2,7 @@
   "name": "option",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/abdelrhmanayman/option-website.git",
+  "homepage": " https://abdelrhmanayman.github.io/option-website/",
   "dependencies": {
     "antd": "^3.22.2",
     "gh-pages": "^2.1.1",
