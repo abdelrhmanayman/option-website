@@ -98,7 +98,7 @@ class App extends Component {
                 <Row align="middle" justify="start" type="flex">
                     <Col span={15} push={4}>
                         <Paragraph style={{ fontFamily: "Georgia", lineHeight: "36px", fontSize: "22px", color: 'black' }}>
-                            Sadly, some people think this program is "too good to be true" or only available to people in need of assistance. This is absolutly not true, <a href="google.com">Enhanced Relief Refinance</ a> is designed for ALL homeowners and to date has reduced mortgage payments for millions of Americans. Moreover, homeowners with good credit see even greater savings!
+                            Sadly, some people think this program is "too good to be true" or only available to people in need of assistance. This is absolutly not true, <a href="http://lk.certainlyhome.com/go">Enhanced Relief Refinance</ a> is designed for ALL homeowners and to date has reduced mortgage payments for millions of Americans. Moreover, homeowners with good credit see even greater savings!
             </Paragraph>
                         <Paragraph style={{ fontFamily: "Georgia", lineHeight: "36px", fontSize: "22px", color: 'black' }}>
                             If you want to lower your mortgage payments or eliminate years off your mortgage, it’s crucial that you act now. You may even take some cash out of your home to help you with paying off debts, bills, home renovations, your child’s education, or that much needed vacation.
