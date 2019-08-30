@@ -61,10 +61,10 @@ class App extends Component {
               <mark>Typical homeowners are expected to see savings of $260 per month ($3,120 per year) off their house payment!</mark>
                         </Paragraph>
                         <Paragraph style={{ fontFamily: "Georgia", lineHeight: "36px", fontSize: "22px" }}>
-                            There have been many mortgage programs since the 2008 financial downturn, but this new program which is called the <u style={{ color: "red" }}>Enhanced Relief Refinance (FMERR) initiative</u>, offers some impressive benefits that will likely benefit most homeowners. Many are calling it one of the best refinance programs of this decade. The Fed wants banks to cut your mortgage rate and Fredie Mac has introduced this program to do just that. Typical homeowners in your area have already saved thousands in mortgage payments.
+                            There have been many mortgage programs since the 2008 financial downturn, but this new program which is called the <a href="http://lk.certainlyhome.com/go" style={{ color: "red" }}>Enhanced Relief Refinance (FMERR) initiative</a>, offers some impressive benefits that will likely benefit most homeowners. Many are calling it one of the best refinance programs of this decade. The Fed wants banks to cut your mortgage rate and Fredie Mac has introduced this program to do just that. Typical homeowners in your area have already saved thousands in mortgage payments.
           </Paragraph>
                         <Paragraph style={{ fontFamily: "Georgia", lineHeight: "36px", fontSize: "22px" }}>
-                            <u style={{ color: "red" }}> When homeowners visit this website to see if they are elgible </u> , they are surprised to learn about this simple house payment reduction program that can lower their mortgage rate and can drastically reduce their payment. <mark>If you want to lower your mortgage payments, pay off your mortgage faster or get some extra needed cash out, this program will allow you to do just that! </mark>
+                            <a href="http://lk.certainlyhome.com/go" style={{ color: "red" }}> When homeowners visit this website to see if they are elgible </a> , they are surprised to learn about this simple house payment reduction program that can lower their mortgage rate and can drastically reduce their payment. <mark>If you want to lower your mortgage payments, pay off your mortgage faster or get some extra needed cash out, this program will allow you to do just that! </mark>
                         </Paragraph>
                     </Col>
                 </Row>
@@ -160,10 +160,10 @@ class App extends Component {
                 <Row>
                     <Col span={15} push={4}>
                         <Paragraph style={{ fontFamily: "Georgia", lineHeight: "36px", fontSize: "22px", color: 'black' }}>
-                            <u style={{ color: "red" }}>Click here to see if you qualify for the Enhanced Relief Refinance (FMERR) initiative.</u> In just a few minutes, you could get matched with reputable Enhanced Relief lenders and see which lender will give you the most monthly savings.
+                            <a href="http://lk.certainlyhome.com/go">Click here to see if you qualify for the Enhanced Relief Refinance (FMERR) initiative.</a> In just a few minutes, you could get matched with reputable Enhanced Relief lenders and see which lender will give you the most monthly savings.
             </Paragraph>
                         <Paragraph style={{ fontFamily: "Georgia", lineHeight: "36px", fontSize: "22px", color: 'black' }}>
-                            <u style={{ color: "red" }}>This website</u> is one of the country's largest and most respected mortgage comparison services. They are currently connecting smart homeowners like yourself with competitive mortgage rates. Service is fast, easy, and 100% free with no obligation. It takes less just a few minutes- you have nothing to lose! You will be very surprised to see how much you'll save.
+                            <a href="http://lk.certainlyhome.com/go" style={{ color: "red" }}>This website</a> is one of the country's largest and most respected mortgage comparison services. They are currently connecting smart homeowners like yourself with competitive mortgage rates. Service is fast, easy, and 100% free with no obligation. It takes less just a few minutes- you have nothing to lose! You will be very surprised to see how much you'll save.
             </Paragraph>
                     </Col>
                 </Row>
@@ -172,7 +172,7 @@ class App extends Component {
                 <br />
                 <Row align="middle" justify="center" type="flex">
                     <Col>
-                        <Button type="primary" style={{ width: "550px", height: "100px", borderRadius: 0, boxShadow: "0 5px 10px 0 rgba(10,200,179,.4) !important" }}><Text style={{ fontSize: "27px", color: "white" }}>CLICK TO SEE IF YOU QUALIFY »</Text></Button>
+                        <Button type="primary" onClick={()=>{window.location.href = "http://lk.certainlyhome.com/go"}} style={{ width: "550px", height: "100px", borderRadius: 0, boxShadow: "0 5px 10px 0 rgba(10,200,179,.4) !important" }}><Text style={{ fontSize: "27px", color: "white" }}>CLICK TO SEE IF YOU QUALIFY »</Text></Button>
                     </Col>
                 </Row>
                 <br />
